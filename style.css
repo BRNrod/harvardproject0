@@ -45,3 +45,18 @@ h1 {
     font-size: 70px;
     height: 40px;
 }
+
+.links {
+    display: flex;
+    position: fixed;
+    gap: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    top: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
