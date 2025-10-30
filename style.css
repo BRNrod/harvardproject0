@@ -44,6 +44,7 @@ h1 {
     display: flex;
     font-size: 70px;
     height: 40px;
+    margin-bottom: 50px;
 }
 
 .links {
@@ -59,4 +60,12 @@ h1 {
 a {
     text-decoration: none;
     color: rgba(0, 0, 0, .87);
+}
+
+.subtitle {
+    display: flex;
+    position: absolute;
+    right: 365px;
+    margin-top: 15px;
+    color: #4285F4;
 }
