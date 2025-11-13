@@ -70,3 +70,12 @@ a {
     margin-top: 5px;
     color: #4285F4;
 }
+
+.logo {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 30px;
+    margin-top: 0px;
+    letter-spacing: -2px;
+}
