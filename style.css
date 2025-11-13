@@ -79,3 +79,11 @@ a {
     margin-top: 0px;
     letter-spacing: -2px;
 }
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 30px;
+    margin-top: 0px;
+}
