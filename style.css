@@ -107,7 +107,7 @@ a {
 
 .row input[type="text"] {
     width: 300px;
-    height: 30px;
+    height: 20px;
     border-radius: 4px;
     border: 1px solid #ccc;
     padding: 5px;
@@ -134,13 +134,37 @@ a {
 
 .range input[type="text"] {
     width: 125px;
-    height: 30px;
+    height: 20px;
     border-radius: 4px;
     border: 1px solid #ccc;
     padding: 5px;
 }
-
+ 
 .range .to {
     color: #555;
     font-size: 14px;
+}
+
+hr {
+    border: none;
+}
+
+.divider1 {                   
+    border-top: 1px solid #dadce0; 
+    margin-top: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 0px;
+    width: 100vw;
+    margin-left: -30px;
+}
+
+.divider2 {                   
+    border-top: 1px solid #dadce0; 
+    margin-top: 30px;
+    margin-bottom: -5px;
+    position: relative;
+    left: 0px;
+    width: 100vw;
+    margin-left: -30px;
 }
