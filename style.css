@@ -78,7 +78,7 @@ a {
     top: 0px;
     left: 30px;
     margin-top: 0px;
-    letter-spacing: -3.5px;
+    letter-spacing: -4px;
 }
 
 .filters {
@@ -106,7 +106,7 @@ a {
 }
 
 .row input[type="text"] {
-    width: 300px;
+    width: 320px;
     height: 20px;
     border-radius: 4px;
     border: 1px solid #ccc;
@@ -133,16 +133,19 @@ a {
 }
 
 .range input[type="text"] {
-    width: 125px;
+    width: 130px;
     height: 20px;
     border-radius: 4px;
     border: 1px solid #ccc;
     padding: 5px;
+    margin-left: -5px;
 }
  
 .range .to {
     color: #555;
     font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 hr {
