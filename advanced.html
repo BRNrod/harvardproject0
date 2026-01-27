@@ -15,41 +15,42 @@
                 <span style="color:#EA4335">e</span>
             </h3>
         </div>
-        <div class="filters">
-                <h2 style="color: #d93025">Advanced Search</h2>
 
-                <div class="divider1">
-                    <hr>
-                </div>
+        <form action="https://www.google.com/search" class="filters">
+            <h2 style="color: #d93025">Advanced Search</h2>
 
-                <h3>Locate pages with...</h3>
+            <div class="divider1">
+                <hr>
+            </div>
+
+            <h3>Locate pages with...</h3>
 
             <div class="row">
-                <label for="all">All these words:</label>
-                <input type="text" id="all" name="all"> 
+                <label for="as_q">All these words:</label>
+                <input type="text" id="as_q" name="as_q"> 
             </div> 
 
             <div class="row">
-                <label for="exact">This exact expression or phrase:</label>
-                <input type="text" id="exact" name="exact">
+                <label for="as_epq">This exact expression or phrase:</label>
+                <input type="text" id="as_epq" name="as_epq">
             </div>
 
             <div class="row">
-                <label for="any">Any of these words:</label>
-                <input type="text" id="any" name="any">
+                <label for="as_oq">Any of these words:</label>
+                <input type="text" id="as_oq" name="as_oq">
             </div>
             <div class="row">
-                <label for="none">None of these words:</label>
-                <input type="text" id="none" name="none">
+                <label for="as_eq">None of these words:</label>
+                <input type="text" id="as_eq" name="as_eq">
             </div>
 
             <div class="row">
                 <label for="site">Website or domain:</label>
-                <input type="text" id="site" name="site">
+                <input type="text" id="site" name="as_sitesearch">
             </div>
 
             <div class="filter6">
-                    <label for="range1">Numbers ranging from:</label>
+                <label for="range1">Numbers ranging from:</label>
 
                 <div class="range">
                     <input type="text" id="range1" name="as_nlo">
@@ -62,9 +63,12 @@
                 <hr>
             </div>
 
-            <h3>Next, limit your results by...</h3>
+            <div class="submit-container">
+                <input type="submit" value="Advanced Search" class="btn-advanced">
+            </div>
                     
-        </div>
+        </form>
+        
         <div class="links">
             <a href="index.html">Back to Google Search</a>
         </div>
